@@ -1,4 +1,4 @@
-# Microsoft-Data-Science-Science-Professional-Program
+# Microsoft-Data-Science-Professional-Program
 
 ## Microsoft Global Skills Initiative
 - This is a Digital Skills for Tomorrow’s Jobs Program, to address the increasing need for digital skills. 
