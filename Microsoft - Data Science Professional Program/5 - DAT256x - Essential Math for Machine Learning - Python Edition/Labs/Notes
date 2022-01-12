@@ -1,0 +1,81 @@
+
+The generalised slope-intercept form of writing the equation of a straight line:
+
+	𝑦 = 𝑚𝑥 + 𝑏
+ 
+In this notation, m is the slope and b is the y-intercept.
+
+*************************************************************
+
+Factorization
+
+	(𝑎+𝑏)^2 = 𝑎^2 + 𝑏^2 + 2𝑎𝑏
+
+*************************************************************
+
+Standard quadratic equation in standard form::
+
+	𝑦 = 𝑎𝑥^2 + 𝑏𝑥 + 𝑐
+
+*************************************************************
+
+Quadratic equation in vertex form:
+
+	𝑦 = 𝑎(𝑥−ℎ)^2 + 𝑘
+ 
+The neat thing about this form of the equation is that it tells us the coordinates of the vertex - it's at h,k.
+
+*************************************************************
+
+Shortcuts for Solving Quadratic Equations
+
+Quadratic equation in standard form: 
+
+	𝑦 = 𝑎𝑥^2 + 𝑏𝑥 + 𝑐
+
+A.
+Calculating the Vertex from Standard Form
+
+There's a quick and easy technique you can apply to get the vertex coordinates.
+
+To find h (which is the x-coordinate of the vertex), apply the following formula:
+	ℎ = −𝑏2/𝑎
+ 
+After you've found h, use it in the quadratic equation to solve for k:
+	𝐤 = 𝑎𝐡^2 + 𝑏𝐡 + 𝑐
+
+
+B.
+The Quadratic Formula
+
+Another useful formula to remember is the quadratic formula, which makes it easy to calculate values for x when y is 0; or in other words:
+
+	𝑎𝑥^2 + 𝑏𝑥 + 𝑐 = 0
+
+Here's the formula:
+
+	𝑥 = −𝑏 ± √𝑏2−4𝑎𝑐 / 2𝑎
+
+*************************************************************
+
+Restrict x to a specific list of values - specifically any real number that is not 0. To indicate this, we can use the following notation:
+	
+	{𝑥 ∈ IR | x ≠ 0}
+ 
+This is interpreted as "Any value for x where x is in the set of real numbers such that x is not equal to 0". 
+
+*************************************************************
+
+
+
+*************************************************************
+
+
+
+*************************************************************
+
+
+
+*************************************************************
+
+

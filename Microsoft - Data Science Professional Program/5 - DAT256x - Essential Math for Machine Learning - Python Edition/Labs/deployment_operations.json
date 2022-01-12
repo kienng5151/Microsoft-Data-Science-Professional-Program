@@ -1,0 +1,86 @@
+[
+  {
+    "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/3879A8AC218052A8",
+    "operationId": "3879A8AC218052A8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-11-15T05:26:12.7869325Z",
+      "duration": "PT1M39.6417042S",
+      "trackingId": "e26a5efb-61bf-4066-ae1f-a272672ac408",
+      "serviceRequestId": "47bb2639-3c46-4405-9906-b0ebe5262e59",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.MachineLearningServices/workspaces/dat256x_labs",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "dat256x_labs"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/2E45377715548AC8",
+    "operationId": "2E45377715548AC8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-11-15T05:24:15.0077365Z",
+      "duration": "PT5.0983037S",
+      "trackingId": "9892c643-6464-4978-af97-f4878364ab8e",
+      "serviceRequestId": "03554a62-48d3-40b8-bc98-0f013cdb74bf",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Insights/components/dat256xlabs5138494285",
+        "resourceType": "Microsoft.Insights/components",
+        "resourceName": "dat256xlabs5138494285"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/1E5E3766C5958EB0",
+    "operationId": "1E5E3766C5958EB0",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-11-15T05:24:32.4302105Z",
+      "duration": "PT22.5207777S",
+      "trackingId": "b3356325-5b1b-48b8-b2a8-43460ed7a8f3",
+      "serviceRequestId": "25bc6437-c1a7-44ad-bc33-39220d190094",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Storage/storageAccounts/dat256xlabs7116120909",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "dat256xlabs7116120909"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/C09752D5B7392CC4",
+    "operationId": "C09752D5B7392CC4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-11-15T05:24:28.0921526Z",
+      "duration": "PT18.1265816S",
+      "trackingId": "fda56a2a-daef-49f5-9cf9-2483710c6dcf",
+      "serviceRequestId": "19335138-4d97-4add-9ffd-f633c467e488",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.KeyVault/vaults/dat256xlabs9884317636",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "dat256xlabs9884317636"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/08585646530371924926",
+    "operationId": "08585646530371924926",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-11-15T05:26:12.9585575Z",
+      "duration": "PT0.1144688S",
+      "trackingId": "694d384c-2af8-4ddf-89d7-8653bb1d76f6",
+      "statusCode": "OK"
+    }
+  }
+]

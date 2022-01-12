@@ -1,0 +1,10 @@
+
+To complete your lab assignment open the "Lab Files" folder located on Desktop and follow ths instructions inb "Module01.pdf", "Module02.pdf", "Module03.pdf" and "Module04.pdf" for completing labs for Module/Week 1, Module/Week 2, Module?Week 3 and Module/Week 4 respectively.
+
+After you have completed running the entire script successfully for the given lab, export the lab as per following instructions.
+
+1. Click the Editors button next to compute and select Edit in JupyterLab. This will open JupyterLab in the new tab.
+
+2. Replace the credentials (Azure Key and Endpoints for LUIS) with 'abc' or any random string.
+
+3. Go to File -> Export Notebook As .. -> Export Notebook to HTML and save the html file to the desktop.

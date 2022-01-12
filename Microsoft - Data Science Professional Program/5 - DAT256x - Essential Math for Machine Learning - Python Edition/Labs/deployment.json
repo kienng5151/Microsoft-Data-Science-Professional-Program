@@ -1,0 +1,377 @@
+{
+  "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices",
+  "name": "Microsoft.MachineLearningServices",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourcegroups/dat256x/providers/Microsoft.MachineLearningServices/workspaces/dat256x_labs",
+    "marketplaceItemId": "Microsoft.MachineLearningServices",
+    "provisioningHash": "iwuh-wccbe-tt0-2enb-ioes-849e-tircx-guw6"
+  },
+  "properties": {
+    "templateHash": "14063049050857732514",
+    "parameters": {
+      "workspaceName": {
+        "type": "String",
+        "value": "dat256x_labs"
+      },
+      "location": {
+        "type": "String",
+        "value": "southeastasia"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "dat256x"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "identityType": {
+        "type": "String",
+        "value": "systemAssigned"
+      },
+      "primaryUserAssignedIdentityResourceGroup": {
+        "type": "String",
+        "value": "dat256x"
+      },
+      "primaryUserAssignedIdentityName": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "dat256xlabs7116120909"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "storageAccountBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "storageAccountResourceGroupName": {
+        "type": "String",
+        "value": "dat256x"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": "southeastasia"
+      },
+      "storageAccountHnsEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "keyVaultOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "keyVaultName": {
+        "type": "String",
+        "value": "dat256xlabs9884317636"
+      },
+      "keyVaultBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "keyVaultResourceGroupName": {
+        "type": "String",
+        "value": "dat256x"
+      },
+      "keyVaultLocation": {
+        "type": "String",
+        "value": "southeastasia"
+      },
+      "applicationInsightsOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "applicationInsightsName": {
+        "type": "String",
+        "value": "dat256xlabs5138494285"
+      },
+      "applicationInsightsResourceGroupName": {
+        "type": "String",
+        "value": "dat256x"
+      },
+      "applicationInsightsLocation": {
+        "type": "String",
+        "value": "southeastasia"
+      },
+      "containerRegistryOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "containerRegistryName": {
+        "type": "String",
+        "value": "crgu77xxahk6r2y"
+      },
+      "containerRegistrySku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "containerRegistryResourceGroupName": {
+        "type": "String",
+        "value": "dat256x"
+      },
+      "containerRegistryBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "containerRegistryLocation": {
+        "type": "String",
+        "value": "southeastasia"
+      },
+      "vnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "vngu77xxahk6r2y"
+      },
+      "vnetResourceGroupName": {
+        "type": "String",
+        "value": "dat256x"
+      },
+      "addressPrefixes": {
+        "type": "Array",
+        "value": [
+          "10.0.0.0/16"
+        ]
+      },
+      "subnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "subnetName": {
+        "type": "String",
+        "value": "sngu77xxahk6r2y"
+      },
+      "subnetPrefix": {
+        "type": "String",
+        "value": "10.0.0.0/24"
+      },
+      "adbWorkspace": {
+        "type": "String",
+        "value": ""
+      },
+      "confidential_data": {
+        "type": "String",
+        "value": "false"
+      },
+      "encryption_status": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "cmk_keyvault": {
+        "type": "String",
+        "value": ""
+      },
+      "resource_cmk_uri": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointType": {
+        "type": "String",
+        "value": "none"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      },
+      "privateEndpointName": {
+        "type": "String",
+        "value": "pe"
+      },
+      "privateEndpointResourceGroupName": {
+        "type": "String",
+        "value": "dat256x"
+      },
+      "systemDatastoresAuthMode": {
+        "type": "String",
+        "value": "accessKey"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-11-15T05:26:12.9829821Z",
+    "duration": "PT2M4.6977547S",
+    "correlationId": "7a495e88-128e-4609-8983-75bbfc5b2bbc",
+    "providers": [
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "southeastasia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.KeyVault",
+        "resourceTypes": [
+          {
+            "resourceType": "vaults",
+            "locations": [
+              "southeastasia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "southeastasia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.MachineLearningServices",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "southeastasia"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Network/virtualNetworks/vngu77xxahk6r2y",
+            "resourceType": "Microsoft.Network/virtualNetworks",
+            "resourceName": "vngu77xxahk6r2y"
+          }
+        ],
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Network/virtualNetworks/vngu77xxahk6r2y/subnets/sngu77xxahk6r2y",
+        "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+        "resourceName": "vngu77xxahk6r2y/sngu77xxahk6r2y"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Network/virtualNetworks/vngu77xxahk6r2y/subnets/sngu77xxahk6r2y",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vngu77xxahk6r2y/sngu77xxahk6r2y"
+          }
+        ],
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Resources/deployments/UpdateSubnetPolicy-ndexrdtptu2lg",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "UpdateSubnetPolicy-ndexrdtptu2lg"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Network/virtualNetworks/vngu77xxahk6r2y/subnets/sngu77xxahk6r2y",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vngu77xxahk6r2y/sngu77xxahk6r2y"
+          }
+        ],
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Storage/storageAccounts/dat256xlabs7116120909",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "dat256xlabs7116120909"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Network/virtualNetworks/vngu77xxahk6r2y/subnets/sngu77xxahk6r2y",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vngu77xxahk6r2y/sngu77xxahk6r2y"
+          }
+        ],
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.KeyVault/vaults/dat256xlabs9884317636",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "dat256xlabs9884317636"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Network/virtualNetworks/vngu77xxahk6r2y/subnets/sngu77xxahk6r2y",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vngu77xxahk6r2y/sngu77xxahk6r2y"
+          }
+        ],
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.ContainerRegistry/registries/crgu77xxahk6r2y",
+        "resourceType": "Microsoft.ContainerRegistry/registries",
+        "resourceName": "crgu77xxahk6r2y"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Storage/storageAccounts/dat256xlabs7116120909",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "dat256xlabs7116120909"
+          },
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.KeyVault/vaults/dat256xlabs9884317636",
+            "resourceType": "Microsoft.KeyVault/vaults",
+            "resourceName": "dat256xlabs9884317636"
+          },
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Insights/components/dat256xlabs5138494285",
+            "resourceType": "Microsoft.Insights/components",
+            "resourceName": "dat256xlabs5138494285"
+          },
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.ContainerRegistry/registries/crgu77xxahk6r2y",
+            "resourceType": "Microsoft.ContainerRegistry/registries",
+            "resourceName": "crgu77xxahk6r2y"
+          }
+        ],
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.MachineLearningServices/workspaces/dat256x_labs",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "dat256x_labs"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.MachineLearningServices/workspaces/dat256x_labs",
+            "resourceType": "Microsoft.MachineLearningServices/workspaces",
+            "resourceName": "dat256x_labs"
+          },
+          {
+            "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Network/virtualNetworks/vngu77xxahk6r2y/subnets/sngu77xxahk6r2y",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vngu77xxahk6r2y/sngu77xxahk6r2y"
+          }
+        ],
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Resources/deployments/DeployPrivateEndpoint-4yxlorfvgucfo",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "DeployPrivateEndpoint-4yxlorfvgucfo"
+      }
+    ],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Insights/components/dat256xlabs5138494285"
+      },
+      {
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.KeyVault/vaults/dat256xlabs9884317636"
+      },
+      {
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.MachineLearningServices/workspaces/dat256x_labs"
+      },
+      {
+        "id": "/subscriptions/a38767c5-1557-445a-b9e1-d96a706abfea/resourceGroups/dat256x/providers/Microsoft.Storage/storageAccounts/dat256xlabs7116120909"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
